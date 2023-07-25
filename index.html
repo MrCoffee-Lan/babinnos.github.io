@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Glassmorphism</title>
+
+    <!-- Favicons -->
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/site.webmanifest" />
+
+    <meta name="author" content="AmreshSinha" />
+    <meta
+      name="description"
+      content="Developer Portfolio centered around GlassMorphic UI"
+    />
+    <meta
+      name="keywords"
+      content="Developer, Portfolio, HTML, CSS, JS, GlassMorphic, Glassmorphic, GlassMorphism, Glassmorphism, UI"
+    />
+
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <link rel="canonical" href="https://AmreshSinha.github.io/glassFolio/" />
+
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script defer src="./assets/js/all.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+    <script src="./assets/js/repo-card.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--Animation-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <section style="overflow:hidden">
+      <!-- <div class="container"> -->
+        <section id="home" class="home" style="overflow:hidden">
+          <!-- <p style="background-image: url('/Users/omerzaid/Desktop/glassFolio/assets/office2.jpg');"></p> -->
+          <!-- <div class="wave wave1"></div>
+          <div class="wave wave2"></div>
+          <div class="wave wave3"></div> -->
+            <!-- <h1 style="color: aliceblue; overflow:hidden;">There are so many doors to be opened,</h1>
+            <h1 style="color: aliceblue; overflow:hidden;">dont be afraid to look behind them.</h1> -->
+            <!-- <div class="wrapper">
+              <input type="checkbox">
+              <div class="video">
+                <video src="/Users/omerzaid/Desktop/glassFolio/assets/video_4k.mp4" loop muted autoplay playsinline></video>
+                
+              </div>
+              <div class="text">
+                <span data-text="Watch the video"></span>
+              </div>
+            </div> -->
+            <!-- <h1>with BAB Innoviation Services</h1> -->
+          <!-- <div class="wave22 wave1"></div>
+          <div class="wave22 wave2"></div>
+          <div class="wave22 wave3"></div> -->
+        </section>
+
+        <!-- <div id="top" class="page-scroll"></div> -->
+        <!-- Navbar -->
+        <!-- <header style="overflow:hidden">
+          <a style="overflow:hidden" href="#top" class="logo">There are so many doors to be opened, dont be afraid to look behind them.</a>
+        </header> -->
+
+        <footer class="position-top" style="overflow:hidden;">
+
+          <div id="msg"></div>
+
+          <a style="overflow:hidden; font-family: 'Courier New', monospace; color: aliceblue;" class="logo">There are so many doors to be opened,
+            <br/>
+             dont be afraid to look behind them.
+          </a>
+          
+        </footer>
+        <br/>
+        <footer2 class="position-bottom">
+        &copy; All Rights Reserved  2023 BAB Innoviations
+        </footer2>
+      <!-- <div>
+        <footer>&copy; All Rights Reserved  2023 BAB Innoviations</footer>
+      </div> -->
+    </section> 
+    <!-- <div class="button-top-div" id="myDIV">
+      <a id="button-top" href="#top"><i class="fas fa-chevron-up"></i></a>
+    </div> -->
+
+    <!-- Page Scroll Percentage -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- Page Scroll Up On Click -->
+    <script>
+      //scroller fixed
+      var scrolBtn = document.querySelector("#myDIV");
+      window.addEventListener("scroll", function () {
+        let offset;
+        offset = window.pageYOffset;
+        if (offset > 300) {
+          scrolBtn.style.display = "block";
+        }
+        if (offset < 300) {
+          scrolBtn.style.display = "none";
+        }
+      });
+
+      //remove that #s in the link
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+            block: "center",
+          });
+        });
+      });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
