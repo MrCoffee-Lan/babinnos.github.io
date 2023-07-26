@@ -177,7 +177,7 @@ body .socials > a:hover {
 
 .home{
   overflow: hidden;
-  background-image: url('https://github.com/babinnos/babinnos.github.io/blob/e724399485cb0ca28c06d6a07d86939cbc64fbfc/assets/video_blue.mp4');
+  background-image: url("/assets/video_blue.mp4");
   /* background:url(“img.jpg”) top right no-repeat; */
   background-attachment:fixed;
   /* background-image: url('/Users/omerzaid/Desktop/glassFolio/assets/office.JPEG'); */
